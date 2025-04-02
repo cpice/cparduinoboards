@@ -14,9 +14,9 @@
             "online": "https://raw.githubusercontent.com/cpice/cparduinoboards"
           },
           "description": "Custom ESP32 boards including CP ESP32 Module, CP ESP32C6 Module, and CP ESP32 Gateway with PCIE. Supports multiple partition schemes.",
-          "url": "https://github.com/cpice/cparduinoboards/archive/refs/heads/master.zip",
+          "url": "http://iot.commonpower.com.hk/bin/cparduinoboards-master.zip",
           "archiveFileName": "cparduinoboards-master.zip",
-          "checksum": "SHA-256:bc47421321063ddf8f0afb40906e7007fb6525305d074c301ac0eb8511423f91",
+          "checksum": "SHA-256:58bc419b1ed7bff75073ede77b8e53b7ac80dd8d0b56a427ffb7570eae7a86b2",
           "boards": [
             {
               "name": "CP ESP32 Module",
