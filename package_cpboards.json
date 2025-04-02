@@ -1,0 +1,22 @@
+{
+  "packages": [
+    {
+      "name": "cpboards",
+      "maintainer": "Your Name",
+      "websiteURL": "https://github.com/YourUsername/CustomESP32Boards",
+      "platforms": [
+        {
+          "name": "CP ESP32 Platform",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "ESP32",
+          "url": "https://raw.githubusercontent.com/YourUsername/CustomESP32Boards/main/esp32-1.0.0.tar.gz",
+          "archiveFileName": "esp32-1.0.0.tar.gz",
+          "checksum": "SHA-256:PLACEHOLDER_FOR_CHECKSUM",
+          "boards": "https://raw.githubusercontent.com/YourUsername/CustomESP32Boards/main/boards.txt",
+          "toolsDependencies": []
+        }
+      ]
+    }
+  ]
+}

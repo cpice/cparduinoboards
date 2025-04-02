@@ -1,0 +1,74 @@
+CP_ESP32_Module.name=CP ESP32 Module
+
+CP_ESP32_Module.upload.tool=esptool
+CP_ESP32_Module.upload.speed=921600
+
+CP_ESP32_Module.build.mcu=esp32
+CP_ESP32_Module.build.f_cpu=240000000L
+CP_ESP32_Module.build.flash_size=4MB
+CP_ESP32_Module.build.board=ESP32_DEV
+CP_ESP32_Module.build.core=esp32
+CP_ESP32_Module.build.variant=esp32
+CP_ESP32_Module.build.partitions=cp_partitions_4MB
+
+CP_ESP32_Module.menu.FlashFreq.80=80MHz
+CP_ESP32_Module.menu.FlashFreq.40=40MHz
+
+CP_ESP32_Module.menu.PartitionScheme.default_4M=Default 4MB
+CP_ESP32_Module.menu.PartitionScheme.default_4M.build.partitions=cp_partitions_4MB
+
+CP_ESP32_Module.menu.PartitionScheme.default_8M=Default 8MB
+CP_ESP32_Module.menu.PartitionScheme.default_8M.build.partitions=cp_partitions_8MB
+
+CP_ESP32_Module.menu.PartitionScheme.default_16M=Default 16MB
+CP_ESP32_Module.menu.PartitionScheme.default_16M.build.partitions=cp_partitions_16MB
+
+CP_ESP32C6_Module.name=CP ESP32C6 Module
+
+CP_ESP32C6_Module.upload.tool=esptool
+CP_ESP32C6_Module.upload.speed=921600
+
+CP_ESP32C6_Module.build.mcu=esp32c6
+CP_ESP32C6_Module.build.f_cpu=160000000L
+CP_ESP32C6_Module.build.flash_size=8MB
+CP_ESP32C6_Module.build.board=ESP32C6_DEV
+CP_ESP32C6_Module.build.core=esp32
+CP_ESP32C6_Module.build.variant=esp32c6
+CP_ESP32C6_Module.build.partitions=cp_partitions_8MB
+
+CP_ESP32C6_Module.menu.FlashFreq.80=80MHz
+CP_ESP32C6_Module.menu.FlashFreq.40=40MHz
+
+CP_ESP32C6_Module.menu.PartitionScheme.default_4M=Default 4MB
+CP_ESP32C6_Module.menu.PartitionScheme.default_4M.build.partitions=cp_partitions_4MB
+
+CP_ESP32C6_Module.menu.PartitionScheme.default_8M=Default 8MB
+CP_ESP32C6_Module.menu.PartitionScheme.default_8M.build.partitions=cp_partitions_8MB
+
+CP_ESP32C6_Module.menu.PartitionScheme.default_16M=Default 16MB
+CP_ESP32C6_Module.menu.PartitionScheme.default_16M.build.partitions=cp_partitions_16MB
+
+CP_ESP32_Gateway_PCIE.name=CP ESP32 Gateway with PCIE
+
+CP_ESP32_Gateway_PCIE.upload.tool=esptool
+CP_ESP32_Gateway_PCIE.upload.speed=921600
+
+CP_ESP32_Gateway_PCIE.build.mcu=esp32
+CP_ESP32_Gateway_PCIE.build.f_cpu=240000000L
+CP_ESP32_Gateway_PCIE.build.flash_size=16MB
+CP_ESP32_Gateway_PCIE.build.board=ARDUINO_LILYGOTPCIE
+CP_ESP32_Gateway_PCIE.build.core=esp32
+CP_ESP32_Gateway_PCIE.build.variant=esp32
+CP_ESP32_Gateway_PCIE.build.partitions=cp_partitions_16MB
+
+CP_ESP32_Gateway_PCIE.menu.FlashFreq.80=80MHz
+CP_ESP32_Gateway_PCIE.menu.FlashFreq.40=40MHz
+
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_4M=Default 4MB
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_4M.build.partitions=cp_partitions_4MB
+
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_8M=Default 8MB
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_8M.build.partitions=cp_partitions_8MB
+
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_16M=Default 16MB
+CP_ESP32_Gateway_PCIE.menu.PartitionScheme.default_16M.build.partitions=cp_partitions_16MB
